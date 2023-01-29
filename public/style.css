@@ -17,5 +17,9 @@ ul {
 }
 
 #start-quiz-button {
+<<<<<<< HEAD
   color: black;
+=======
+  background-color: azure;
+>>>>>>> master
 }
