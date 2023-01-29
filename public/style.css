@@ -15,3 +15,7 @@
 ul {
   list-style: none;
 }
+
+#start-quiz-button {
+  color: black;
+}
