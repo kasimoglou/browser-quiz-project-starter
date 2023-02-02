@@ -59,3 +59,4 @@ const submitAnswer = (currentQuestion) => {
     currentQuestion.submitted = true;
   }
 };
+//ahmet
