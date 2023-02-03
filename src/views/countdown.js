@@ -2,12 +2,12 @@ import { COUNT_DOWN } from '../constants.js';
 import { nextQuestion } from '../pages/questionPage.js';
 
 const paragraphElement = document.createElement('p');
-paragraphElement.textContent = '05 : 00'
+paragraphElement.textContent = '05 : 00';
 paragraphElement.setAttribute('id', COUNT_DOWN);
 document.body.appendChild(paragraphElement);
 
 /*countdown start */
-let countdownTime = 299;
+let countdownTime = 300;
 
 const countdownEl = document.getElementById(COUNT_DOWN);
 export const startCountdown = () => {
@@ -21,7 +21,7 @@ export const startCountdown = () => {
   const originalTime = 300;
   const n = [1, 2, 3, 4, 5, 6, 7, 8, 9];
   for (let i in n) {
-    if (countdownTime === originalTime - i * 31) {
+    if (countdownTime === originalTime - i * 30) {
       nextQuestion();
     }
   }

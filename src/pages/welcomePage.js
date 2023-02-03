@@ -34,3 +34,4 @@ document.title = "Singularity";
 const startQuiz = () => {
   initQuestionPage();
 };
+
