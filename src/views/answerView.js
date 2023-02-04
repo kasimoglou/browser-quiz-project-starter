@@ -8,5 +8,8 @@ export const createAnswerElement = (key, answerText) => {
   button.innerHTML = String.raw`
     <div class="choice"><p>${key.toUpperCase()}.</p></div><div class="answer">${answerText}</div>
   `;
+
   return button;
+
+
 };

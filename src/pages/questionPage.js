@@ -26,6 +26,10 @@ export const initQuestionPage = () => {
     answersListElement.appendChild(answerElement);
   }
 
+  document.querySelector('.answer-btn').addEventListener('click', () => {
+    console.log('a');
+  });
+
   document
     .getElementById(SUBMIT_ANSWER_BUTTON_ID)
     .addEventListener('click', submitAnswer(currentQuestion));
