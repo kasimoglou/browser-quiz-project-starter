@@ -5,6 +5,140 @@
   box-sizing: border-box;
 }
 body {
+  background-color:#005861;
+  /* background-image: url('https://scitechdaily.com/images/Saturn-Storm-Model.gif'); */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  /* background-image: url('https://scitechdaily.com/images/Saturn-Storm-Model.gif'); */
+  align-items: center;
+  /* background-color: #32C8CC; */
+  background-image: url('/public/images/BKimg.png'); 
+  background-blend-mode: difference;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 11em;
+  border-radius: 500px;
+}
+
+.scrollable {
+  height: auto;
+  max-height: 80vh;
+  overflow: auto;
+}
+
+#welcome{
+color:#CF9385;
+font-size: 5rem;
+font-family: 'Courier New', Courier, monospace;
+font-weight: bolder;
+border-style: double;
+background-color: #E4FCEF;
+padding: 2rem;
+border-radius: 300em;
+}
+
+ul {
+  list-style: none;
+  color:#E45D03 ;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+
+#answers-list{
+display: flex;
+flex-direction: column;
+align-items: center;
+flex-wrap: wrap;
+font-family:'Courier New', Courier, monospace;
+}
+
+#start-quiz-button {
+  padding: 1em;
+  border-radius: 300px;
+  background-color:#FCFEF7;
+  font-family:'Courier New', Courier, monospace;
+  font-size: medium;
+  font-weight: bold;
+}
+
+/*Countdown Timer*/
+#count-down {
+  position: fixed;
+  top: 5%;
+  left: 48%;
+  transform: translate(-50%, -50%);
+  display: inline-flex;
+  justify-content: center;
+  font-size: 50px;
+  height: 70px;
+  width: 250px;
+  color: #CF9385;
+  font-family:'Courier New', Courier, monospace;
+  margin: 50px;
+
+}
+
+.correct{
+  background-color:#15c486;
+  color: #FCFEF7;
+}
+
+.wrong{
+  background-color:#ea2a2a;
+  color: #FCFEF7;
+}
+
+h1{
+  font-family:'Courier New', Courier, monospace;
+  color: #CF9385;
+  margin: 2rem;
+  background-color: #FCFEF7;
+  padding: 1em;
+  border-radius: 300px;
+  margin: 2rem;
+}
+
+.answer-btn{
+  width: 300px;
+  padding: 1em;
+  border-radius: 500px;
+  font-family:'Courier New', Courier, monospace;
+  font-size:medium;
+  font-weight: bold;
+}
+
+#next-question-button{
+  padding: 1em;
+  border-radius: 300px;
+  margin: 2rem;
+  font-family:'Courier New', Courier, monospace;
+  font-size: medium;
+  font-weight: bold;
+  background-color:#FCFEF7;
+}
+
+
+
+
+
+
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
   font-family: 'Courier New', Courier, monospace;
   background-color: #c0e1e6;
   background-repeat: no-repeat;
@@ -39,7 +173,6 @@ body {
 
 ul {
   list-style: none;
-  /* background-color:#867FB5; */
   color: #e45d03;
   font-family: 'Courier New', Courier, monospace;
 }
@@ -61,7 +194,7 @@ ul {
   font-weight: bold;
 }
 
-/*Countdown Timer*/
+
 #count-down {
   position: fixed;
   top: 5%;
@@ -109,4 +242,4 @@ h1 {
   font-size: medium;
   font-weight: bold;
   background-color: #c0e1e6;
-}
+} */
