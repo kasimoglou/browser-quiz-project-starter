@@ -8,13 +8,13 @@ const loadApp = () => {
   initWelcomePage();
 };
 
-function setFavicons(favImg){
+function setFavicons(favImg) {
   const headTitle = document.querySelector('head');
   const setFavicon = document.createElement('link');
-  setFavicon.setAttribute('rel','shortcut icon');
-  setFavicon.setAttribute('href',favImg);
+  setFavicon.setAttribute('rel', 'shortcut icon');
+  setFavicon.setAttribute('href', favImg);
   headTitle.appendChild(setFavicon);
 }
-setFavicons('/public/images/Favicon.png');
+setFavicons('public/images/Favicon.png');
 
 window.addEventListener('load', loadApp);

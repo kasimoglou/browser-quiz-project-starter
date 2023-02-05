@@ -1,161 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 body {
-  background-color:#005861;
-  /* background-image: url('https://scitechdaily.com/images/Saturn-Storm-Model.gif'); */
+  font-family: 'Rajdhani', sans-serif;
+  background-color: black;
+  background-image: url('images/BKimg.png');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
+  background-position: center;
+}
+
+button {
+  font-family: 'Rajdhani', sans-serif;
 }
 
 .centered {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  font-family: 'Rajdhani', sans-serif;
+  height: 100vh;
+  margin-top: 15vh ;
   text-align: center;
-  /* background-image: url('https://scitechdaily.com/images/Saturn-Storm-Model.gif'); */
-  align-items: center;
-  /* background-color: #32C8CC; */
-  background-image: url('/public/images/BKimg.png'); 
-  background-blend-mode: difference;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 11em;
-  border-radius: 500px;
-}
-
-.scrollable {
-  height: auto;
-  max-height: 80vh;
-  overflow: auto;
-}
-
-#welcome{
-color:#CF9385;
-font-size: 5rem;
-font-family: 'Courier New', Courier, monospace;
-font-weight: bolder;
-border-style: double;
-background-color: #E4FCEF;
-padding: 2rem;
-border-radius: 300em;
-}
-
-ul {
-  list-style: none;
-  color:#E45D03 ;
-  font-family: 'Courier New', Courier, monospace;
-}
-
-
-#answers-list{
-display: flex;
-flex-direction: column;
-align-items: center;
-flex-wrap: wrap;
-font-family:'Courier New', Courier, monospace;
-}
-
-#start-quiz-button {
-  padding: 1em;
-  border-radius: 300px;
-  background-color:#FCFEF7;
-  font-family:'Courier New', Courier, monospace;
-  font-size: medium;
-  font-weight: bold;
-}
-
-/*Countdown Timer*/
-#count-down {
-  position: fixed;
-  top: 5%;
-  left: 48%;
-  transform: translate(-50%, -50%);
-  display: inline-flex;
-  justify-content: center;
-  font-size: 50px;
-  height: 70px;
-  width: 250px;
-  color: #CF9385;
-  font-family:'Courier New', Courier, monospace;
-  margin: 50px;
-
-}
-
-.correct{
-  background-color:#15c486;
-  color: #FCFEF7;
-}
-
-.wrong{
-  background-color:#ea2a2a;
-  color: #FCFEF7;
-}
-
-h1{
-  font-family:'Courier New', Courier, monospace;
-  color: #CF9385;
-  margin: 2rem;
-  background-color: #FCFEF7;
-  padding: 1em;
-  border-radius: 300px;
-  margin: 2rem;
-}
-
-.answer-btn{
-  width: 300px;
-  padding: 1em;
-  border-radius: 500px;
-  font-family:'Courier New', Courier, monospace;
-  font-size:medium;
-  font-weight: bold;
-}
-
-#next-question-button{
-  padding: 1em;
-  border-radius: 300px;
-  margin: 2rem;
-  font-family:'Courier New', Courier, monospace;
-  font-size: medium;
-  font-weight: bold;
-  background-color:#FCFEF7;
-}
-
-
-
-
-
-
-
-
-/* @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-body {
-  font-family: 'Courier New', Courier, monospace;
-  background-color: #c0e1e6;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.centered {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  background-image: url('images/Background.png');
-  background-blend-mode: soft-light;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 11em;
-  border-radius: 500px;
 }
 
 .scrollable {
@@ -165,16 +31,18 @@ body {
 }
 
 #welcome {
-  color: #e45d03;
-  font-size: xx-large;
-  font-family: 'Courier New', Courier, monospace;
+  color: #cf9385;
+  font-size: 5rem;
   font-weight: bolder;
+  border-style: double;
+  background-color: #e4fcef;
+  padding: 2rem;
+  border-radius: 300em;
 }
 
 ul {
   list-style: none;
   color: #e45d03;
-  font-family: 'Courier New', Courier, monospace;
 }
 
 #answers-list {
@@ -182,64 +50,72 @@ ul {
   flex-direction: column;
   align-items: center;
   flex-wrap: wrap;
-  font-family: 'Courier New', Courier, monospace;
 }
 
 #start-quiz-button {
   padding: 1em;
   border-radius: 300px;
-  background-color: #c0e1e6;
-  font-family: 'Courier New', Courier, monospace;
+  background-color: #fcfef7;
   font-size: medium;
   font-weight: bold;
 }
 
-
+/*Countdown Timer*/
 #count-down {
   position: fixed;
   top: 5%;
-  left: 48%;
-  transform: translate(-50%, -50%);
-  display: inline-flex;
+  transform: translate(0%, -50%);
   justify-content: center;
   font-size: 50px;
-  height: 70px;
-  width: 250px;
-  color: #e45d03;
-  font-family: 'Courier New', Courier, monospace;
-  margin: 50px;
+  color: #cf9385;
+  text-shadow: 0px 0px 3px black;
+  text-shadow: initial;
 }
 
 .correct {
-  background-color: #40785f;
+  background-color: #15c486;
+  color: #fcfef7;
 }
 
 .wrong {
-  background-color: #e74922;
+  background-color: #ea2a2a;
+  color: #fcfef7;
 }
 
 h1 {
-  font-family: 'Courier New', Courier, monospace;
-  color: #15c486;
-  text-shadow: 2px 2px white;
+  color: #cf9385;
+
+  text-align: center;
   margin: 2rem;
+  background-color: rgba(228, 224, 224, 0.85);
+  padding: 1em 2em;
+  border-radius: 300px;
+  margin: 2rem;
+  text-shadow: 0px 0px 1px black;
 }
 
 .answer-btn {
-  width: 300px;
+  width: 500px;
   padding: 1em;
+  border: 1px solid rgb(94, 92, 92);
   border-radius: 500px;
-  font-family: 'Courier New', Courier, monospace;
-  font-size: small;
+  font-size: medium;
   font-weight: bold;
+  margin-bottom: 10px;
+  transition: transform 0.2s ease-in-out 0s;
+  background-color: rgba(228, 224, 224, 0.85);
+}
+
+.answer-btn:hover {
+  box-shadow: 0px 0px 7px black;
+  transform: scale(1.2);
 }
 
 #next-question-button {
   padding: 1em;
   border-radius: 300px;
   margin: 2rem;
-  font-family: 'Courier New', Courier, monospace;
   font-size: medium;
   font-weight: bold;
-  background-color: #c0e1e6;
-} */
+  background-color: #fcfef7;
+}
