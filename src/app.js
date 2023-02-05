@@ -4,7 +4,7 @@ import { initWelcomePage } from './pages/welcomePage.js';
 const loadApp = () => {
   quizData.currentQuestionIndex = 0;
   document.title = 'Singularity';
-  setFavicons('images/Favicon.png');
+  setFavicons('/public/images/Favicon.png');
   initWelcomePage();
 };
 
