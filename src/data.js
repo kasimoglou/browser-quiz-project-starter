@@ -105,7 +105,7 @@ export const quizData = {
     },
     {
       text:
-        'What is the equation that demonstrate this relation?',
+        'According to Einsteins general theory of relativity, energy is proportional to mass. What is the equation that demonstrate this relation?',
       answers: {
         a: 'E = dc^2',
         b: 'E = mc^2',

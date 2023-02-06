@@ -4,7 +4,7 @@ import { nextQuestion } from '../pages/questionPage.js';
 const paragraphEl = document.createElement('p');
 paragraphEl.textContent = '05 : 00';
 paragraphEl.setAttribute('id', COUNT_DOWN);
-document.body.appendChild(paragraphEl);
+document.body.prepend(paragraphEl);
 
 /*countdown start */
 let countdownTime = 300;
